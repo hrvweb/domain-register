@@ -8,6 +8,6 @@
 - [ ] I understand that if these requirements are not met, my pull request will be closed.
 
 ## Description
-<-- Describe your website. -->
+<!-- Describe your website. -->
 ## Link to Website
-<--- Paste your link here. --->
+<!-- Paste your link here. -->
