@@ -1,12 +1,15 @@
 {
   "name": "domains-registry",
   "version": "1.0.0",
+  "description": "Hrv Clan Domain Registration System",
+  "main": "index.js",
   "scripts": {
-    "test": "ava tests/*.test.js --verbose"
+    "test": "npx ava tests/*.test.js --verbose"
+  },
+  "devDependencies": {
+    "ava": "^5.0.0"
   },
   "dependencies": {
-    "ava": "^5.0.0",
-    "fs-extra": "^11.0.0",
-    "path": "^0.12.7"
+    "fs-extra": "^11.0.0"
   }
 }
