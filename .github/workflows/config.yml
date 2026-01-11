@@ -1,4 +1,4 @@
-Name: "Hrv Clan Bot"
+name: "Hrv Clan Bot"
 
 on:
   pull_request:
@@ -77,4 +77,5 @@ jobs:
               repo: context.repo.repo,
               body: message
             });
+
 
