@@ -50,4 +50,4 @@ Currently, **Hrv Clan** supports registration under the following domains:
 * Bug Checking: If the Bot reports an error, click the Details button in the Pull Request to see troubleshooting instructions.
 * Report Abuse: Please contact us via Email: abuse@hungrerovn.is-a.dev
 * General Support: help@hungrerovn.is-a.dev
----,
+---
