@@ -19,15 +19,15 @@ Currently, **Hrv Clan** supports registration under the following domains:
 ## 📄 Sample JSON File Structure
 ```json
 {
-"owner": {
-"username": "github-username",
-"email": "example@example.com"
-},
-"domain": "is-a-dev.indevs.in",
-"subdomain": "your-name",
-"records": {
-"CNAME": "username.github.io"
-},
+  "owner": {
+    "username": "github-username",
+    "email": "example@example.com"
+  },
+  "domain": "is-a-dev.indevs.in",
+  "subdomain": "your-name",
+  "records": {
+    "CNAME": "username.github.io"
+  },
 "proxied": false
 }
 ```
