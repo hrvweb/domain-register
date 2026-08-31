@@ -4,7 +4,7 @@ const path = require("path");
 
 const domainsPath = path.resolve("domains");
 const files = fs.readdirSync(domainsPath).filter(f => f.endsWith(".json"));
-const rootDomains = ["is-a-dev.indevs.in", "is-a-app.indevs.in"];
+const rootDomains = ["is-a-dev.indevs.in", "is-a-app.indevs.in", "is-a-mail.indevs.in"];
 
 test("Subdomain Hierarchy and Technical Validation", (t) => {
     if (files.length === 0) return t.pass();
@@ -28,7 +28,7 @@ test("Subdomain Hierarchy and Technical Validation", (t) => {
                 const parentPath = path.join(domainsPath, parentFile);
                 if (fs.existsSync(parentPath)) {
                     const parentData = fs.readJsonSync(parentPath);
-                    if (parentData.record && parentData.record.NS) {
+                    if (parentData.records && parentData.records.NS) {
                         t.fail(`${file}: Parent '${parentSubdomain}' uses NS records. Please manage subdomains through their DNS provider.`);
                     }
                 }
