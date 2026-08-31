@@ -1,0 +1,12 @@
+{
+  "owner": {
+    "username": "hungrerovn",
+    "email": "hi@hungrerovn.is-a.dev"
+  },
+  "domain": "is-a-dev.indevs.in",
+  "subdomain": "hungrerovn",
+  "records": {
+    "CNAME": ["biolink-zecu.onrender.com"]
+  },
+"proxied": true
+}
