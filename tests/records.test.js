@@ -14,7 +14,7 @@ test("Strict DNS Record Validation", (t) => {
 
     files.forEach((file) => {
         const data = fs.readJsonSync(path.join(domainsPath, file));
-        const records = data.record || {};
+        const records = data.records || {};
         const keys = Object.keys(records);
 
         // --- 1. CNAME CO-EXISTENCE CHECK (The most important rule) ---
