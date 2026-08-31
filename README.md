@@ -15,6 +15,7 @@ Currently, **Hrv Clan** supports registration under the following domains:
 | :--- | :--- | :--- |
 | `is-a-dev.indevs.in` | For Developers | ✅ Active |
 | `is-a-app.indevs.in` | For Applications/Web Apps | ✅ Active |
+| `is-a-mail.indevs.in` | For Email/Web Mail | ✅ Active |
 
 ## 📄 Sample JSON File Structure
 ```json
