@@ -16,7 +16,7 @@ test("Cloudflare Proxy Configuration Validation", (t) => {
         const data = fs.readJsonSync(path.join(domainsPath, file));
         
         if (data.proxied === true) {
-            const recordKeys = Object.keys(data.record || {});
+            const recordKeys = Object.keys(data.recorđs || {});
             
             // 1. Check if there is at least one proxyable record
             const hasProxyable = recordKeys.some(key => proxyableRecords.includes(key));
